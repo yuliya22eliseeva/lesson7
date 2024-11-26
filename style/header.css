@@ -29,11 +29,13 @@ p span{
   flex-direction: row;
   line-height: 29.06px;
 }
+
 @media (max-width: 1000px){
   .text{
     width: 1000px;
     height: 500px;
   } 
+
   h1 span{
     padding-top:255px;
     width: 789.51px;
@@ -47,7 +49,7 @@ p span{
     font-weight: 400;
     line-height: 60px;
   }
-  
+
   p span{
     width: 557.65px;
     height: 58px;
@@ -60,11 +62,13 @@ p span{
     line-height: 29.06px;
   }
 }
+
 @media (max-width: 768px){
   .text{
     width: 768px;
     height: 500px;
   } 
+
   h1 span{
     padding-top:255px;
     width: 684px;
@@ -78,7 +82,7 @@ p span{
     font-weight: 400;
     line-height: 60px;
   }
-  
+
   p span{
     width: 557.65px;
     height: 58px;
@@ -90,13 +94,14 @@ p span{
     flex-direction: row;
     line-height: 29.06px;
   }
-
 }
+
 @media (max-width: 480px){
   .text{
     width: 480px;
     height: 500px;
   } 
+
   h1 span{
     padding-top:275px;
     width: 450px;
@@ -109,10 +114,9 @@ p span{
     font-size: 40px;
     font-weight: 400;
     line-height: 48.44px;
-    text-align: left;
-    
-  }
-  
+    text-align: left;    
+  }  
+
   p span{
     width: 450px;
     height: 58px;
@@ -126,15 +130,16 @@ p span{
     line-height: 29.06px;
     text-align: left;
   }
-
 }
+
 @media (max-width: 360px){
   .text{
     background-image: url(./image/header.svg);
     width: 360px;
     height: 367px;
   }
-  h1 span {
+
+  h1 span{
     padding-top: 233px;
     width: 340px;
     height: 58px;
@@ -146,6 +151,7 @@ p span{
     justify-content: left;
     flex-wrap: wrap;
 }
+
   p span{
     width: 332px;
     height: 36px;

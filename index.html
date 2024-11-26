@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Figma</title>
+  <link rel="stylesheet" href="/burger.css">
   <link rel="stylesheet" href="/styles.css">
   <link rel="stylesheet" href="/style/media_1174.css">
   <link rel="stylesheet" href="./style/footer_2.css">
@@ -17,10 +18,37 @@
   <link rel="stylesheet" href="./style/styles.css">
 </head>
 <body>
+
     <header class="header">
 
     <nav class="tea-main">
-        <img class="tea-main-search" width="40" height="18" src="./image/Frame 127.svg" alt="Search">
+
+      <div class="menu">
+        <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+        <label for="burger-checkbox" class="burger"></label>
+
+        <div class="menu-list">
+        <ul class="menu-list1">
+            <li><a href="#" class="menu-item1">Black</a></li>
+            <li><a href="#" class="menu-item1">Green</a></li>
+            <li><a href="#" class="menu-item1">White</a></li>
+            <li><a href="#" class="menu-item1">Pu-erh</a></li>
+        </ul>
+        <div class="create-line"></div>
+        <ul class="menu-list2">
+          <li><a href="#" class="menu-item2">Contact Us</a></li>
+          <li><a href="#" class="menu-item2">Our Blog</a></li>
+          <li><a href="#" class="menu-item2">Shipping and Delivery</a></li>
+        </ul>
+        <div class="menu-list3">
+          <img class="menu-item3" width="20", height="22" src="/image/basket.svg" alt="basket">  
+          <img class="menu-item3" width="18", height="22" src="./image/people.svg" alt="people">
+          <img class="menu-item3" width="22", height="22" src="./image/search.svg" alt="search">
+        </div>
+    </div>
+
+  </div>
+
         <img class="tea-cup" width="73.2" height="105" src="./image/cup.svg" alt="cup">
 
         <div class="tea-main_select">
@@ -49,7 +77,10 @@
     <p><span> Wide selection of high-quality teas from all over the world, carefully curated by tea experts.</span> 
     </p>
   </div>
-  <h2 class="quote">"Tea is not just a drink, it's a way of life and a way to connect with our loved ones."</h2>
+  
+  <div>
+    <h2 class="quote">"Tea is not just a drink, it's a way of life and a way to connect with our loved ones."</h2>
+  </div>
 
 
     <section class="tea-icons">

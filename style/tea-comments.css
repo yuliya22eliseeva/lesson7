@@ -67,9 +67,9 @@
     margin-left: 54px;
     margin-right: 54px;
 }
+
 .tea-comments_card:nth-child(4){
   display: none;
-
 }
 } 
 
@@ -79,10 +79,12 @@
     width: 768px;
     height: 596px;
   }
+
   .tea-comments_title{
     margin-left: 230px;
     text-align: center;
   }
+
   .tea-comments_cards {
     width: 636px;
     margin-left: 67px;
@@ -91,15 +93,18 @@
     flex-wrap: wrap;
     row-gap: 50px;
     column-gap: 76px;
-}  
+} 
+
 .tea-comments_card:nth-child(4){
   display: block;
-}  
+} 
+
 .tea-comments_card{
   width: 280px;
   flex-wrap: wrap;
   justify-content: center;
-} 
+}
+
 .tea-comments_name{
   text-align: left;
 }            
@@ -112,15 +117,17 @@
     margin-left: 74px;
     padding-bottom: 50px;
     }
+
   .tea-comments{
     width: 480px;
     height: 588px;
     margin-top: 60px;
-
   }
+
   .tea-comments_title{
     text-align: center;
   }
+
   .tea-comments_cards {
     width: 480px;
     margin-left: 10px;
@@ -133,17 +140,20 @@
     column-gap: 20px;
     row-gap: 65px;
 } 
+
 .tea-comments_card {
   width: 220px;
   height: 176px;
 }
 }
+
 @media (max-width: 360px){
   .tea-comments{
     width: 356px;
     height: 461px; 
     margin-top: 0px;
   }
+
   .tea-comments_cards {
     width: 340px;
     margin-left: 10px;
@@ -152,10 +162,12 @@
     row-gap: 65px;
     margin-top: 10px; 
 } 
+
 .tea-comments_card:nth-child(2),
 .tea-comments_card:nth-child(3) {
   display: none;
 }
+
 .tea-comments_card {
   width: 340px;
   height: 110px;
@@ -163,9 +175,11 @@
   font-weight: 300;
   line-height: 21.79px;
 }
+
 .tea-comments_name{
   margin-top: 0px;
 }
+
 .tea-comments_title{
   width: 340px;
   height: 29px;

@@ -6,10 +6,8 @@
   margin-right: 200px ;
   background: #FFFFFF;  
   display:flex;
-  flex-direction: row;
-  
+  flex-direction: row;  
 }
-
 
 .tea-main_select {
   width: 582px;
@@ -44,8 +42,9 @@
   margin-top: 57px;
   margin-bottom: 85px;
 }
+
 @media (max-width: 1600px) {
-  .tea-main-search{
+  .menu{
     display: none;
   }
   }
@@ -56,6 +55,7 @@
     margin-left: 20px;
     margin-right: 5px;
   }
+
   .tea-main_select{
     margin-left: 58.8px;
     margin-top: 40px;
@@ -64,10 +64,12 @@
     justify-content: left;
     column-gap: 70px;
   }
+
   .tea-main_icons{
     margin-left: 116px;
     margin-top: 40px;
   }
+
   .tea-main_search{
     margin-left: 50px;
     margin-top: 40px;
@@ -78,7 +80,8 @@
     .tea-main{
       margin-left: 0;
       }
-    .tea-main-search{
+
+    .menu{
       display: block;
       margin-right: 243px;
       margin-left: 64px;
@@ -88,12 +91,12 @@
     .tea-main_select{
       display: none;
       }
-      .tea-main_icons{
-        margin-left: 154px;
-      }
 
+      .tea-main_icons{
+      margin-left: 154px;
+      }
     }
-    
+
     @media (max-width: 480px) {
       .tea-main{
         width: 470px;
@@ -101,21 +104,26 @@
         margin: 0;
         margin-bottom: 20px;
       }
+
       .tea-cup{
         width: 39px;
         height: 75px;
       }
+
       .tea-main_icons{
         margin-left: 85px;
         margin-top: 20px;
       }
-      .tea-main-search{
+
+      .menu{
         margin: 30px 170px 10px 10px;
       }
+
       .tea-main_search{
         margin-top: 25px;
       }
     }
+
       @media (max-width: 360px) {
         .tea-main{
           width: 360px;
@@ -123,17 +131,21 @@
           margin: 0;
           margin-bottom: 20px;
         }
+
         .tea-cup{
           width: 39px;
           height: 75px;
         }
+
         .tea-main_icons{
           margin-left: 50px;
           margin-top: 30px;
         }
-        .tea-main-search{
+
+        .menu{
           margin: 28px 110px 10px 10px;
         }
+        
         .tea-main_search{
           margin-left: 20px;
           margin-top: 30px;
