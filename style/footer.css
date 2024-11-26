@@ -1,0 +1,219 @@
+/* .container_footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 150px;
+}
+
+.centered_footer{
+  position: absolute;
+  width: 1400px;
+  height: 593px;
+  top: 100px;
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tea-contacts_products{
+  width: 97px;
+  height: 269px;
+  gap: 50px;
+}
+
+.tea-contacts_subtitle{
+  width: 84px;
+  height: 29px;
+  font-family: "Cormorant";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-right: 13px;
+  margin-bottom: 50px;
+  color: #151618;
+}
+
+.tea-contacts_list1{
+  width: 97px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.79px;
+  text-align: left;
+  color: #151618;
+
+}
+.tea-contacts_company{
+  margin-left: 213px;
+  width: 155px;
+  height: 353px;
+}
+.tea-contacts_subtitle_company{
+  width: 84px;
+  height: 29px;
+  font-family: "Cormorant";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 50px;
+  color:#151618;
+}
+.tea-contacts_list2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.79px;
+  text-align: left;
+  color: #151618;
+}
+
+.tea-contacts_citata{
+  display: flex;
+  flex-direction: column;
+  width: 269px;
+  height: 162px;
+  margin-top: 79px;
+  margin-left: 155px;
+  width: 269px;
+  height: 110px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 21.79px;
+  text-align: left;
+  color: #151618;
+
+}
+
+.tea-contacts_citata_tea_2{
+  width: 129px;
+  height: 32px; margin-top: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16.34px;
+  text-align: left;
+  color: #151618;
+
+}
+.tea-contacts_touch{
+  width: 270px;
+  height: 287px;
+  margin-left: 41px;
+  margin-right: 200px;
+}
+.tea-contacts_subtitle_touch{
+  width: 131px;
+  height: 29px;
+  top: 100px;
+  left: 1130px;
+  font-family: 'Cormorant';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+  text-align: left;
+  color: #151618;
+}
+
+.tea-contacts_callback{
+  width: 270px;
+  height: 36px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17.7px;
+  text-align: left;
+}
+
+.tea_peacture{
+  width: 270px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tea-end{
+  width: 136px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px ;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17.7px;
+  text-align: left;
+  font-style: normal;
+  color: #151618;
+}
+.networks{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 150px;
+  height: 22px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.footer_end{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.TealuxE{
+  width: 118px;
+  height: 22px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.79px;
+  text-align: left;
+    
+}
+
+.tea-pay{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 192px;
+  margin-top: 5px;
+}
+@media(max-width:1000px){
+  .container_footer{
+    margin-top:110px;
+  }
+.centered_footer{
+  margin-left: 20px;
+  }
+  .tea-contacts_company{
+    margin-left: 60px;
+  }
+  .tea-contacts_citata{
+    margin-left: 60px;
+    margin-top: 0;
+  }
+  .footer_end{
+    margin-bottom: 80px;
+  }
+  .tea-pay{
+    margin-left: 35px;
+  }
+} */

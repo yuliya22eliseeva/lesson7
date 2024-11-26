@@ -1,0 +1,266 @@
+.tea-block {
+  max-width: 1230px;
+  margin-top: 150px;
+  padding: 0 15px;
+  margin-left: 185px;
+}
+
+.tea-block_title {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.21;
+  margin-bottom: 60px;
+  font-family: "Cormorant";
+  line-height: 48.44px;
+  margin-left: 470px;
+
+}
+
+.tea-block_cards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 58px;
+  margin-bottom: 60px;
+}
+
+.tea-block_card {
+  display: flex;
+  gap: 20px;
+  max-width: 542px;
+}
+
+.tea-block_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-block_subtitle {
+  width: 252px;
+  height: 86px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.21;
+  margin-bottom: 10px;
+}
+
+.tea-block_text {
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.36;
+  flex: auto;
+}
+
+.link {
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.36;
+  color: #151618;
+
+}
+
+.link::after {
+  display: inline-block;
+  content: '';
+  width: 5px;
+  height: 10px;
+  background: url('/image/arrow.svg') 100% / cover no-repeat;
+  margin-left: 5px;
+  transition: all 0.2s ease-in 0s;
+}
+
+.link:hover::after {
+  transform: translateX(6px);
+}
+
+.tea-block_view-all {
+  display: flex;
+  justify-content: center;
+  margin-left: 486px;
+  margin-top: 17px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.24px;
+  text-align: center;
+  border: 1px solid #151618;
+  background-color: white;
+  padding: 12px 41px;
+  transition: all 0.2s ease-in 0s;
+  cursor: pointer;
+}
+
+.tea-block_view-all:hover {
+  background-color: rgb(226, 226, 226);
+}
+@media (max-width: 1000px) {
+  .tea-block{
+    height: 490px;
+    margin-left: 10px;
+    margin-top: 120px;
+
+  }
+  
+.tea-block_title{
+  margin-left: 370px;
+}
+
+  .tea-block_cards{
+    display: flex;
+    row-gap: 65px;
+    column-gap: 20px;
+    width: 940px;
+    height: 592;
+    margin-bottom: 0;
+
+  }
+  .tea-block_subtitle{
+    width: 210px;
+    height: 86px;
+
+
+  }
+  .tea-block_card {
+    width: 460px;
+    height: 153px;
+  }
+  .tea-block_view-all{
+    margin-top:  0px;
+    margin-left:  400px;
+  }
+}
+
+@media (max-width:768px){
+  .tea-block{
+    height: 1029px;
+  }
+  .tea-block_title{
+    margin-left: 250px;
+  }
+  .tea-block_cards {
+    width: 640px;
+    gap: 30px;
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+  }
+  .tea-block-picture{
+    width: 270px;
+    height: 180px;
+  }
+  .tea-block_card{
+    width: 542px;
+    height: 180px;
+  }
+  .tea-block_subtitle{
+    width: 252px;
+    height: 86px;
+  }
+  .tea-block_card:nth-child(even) {
+    margin-left: 100px;
+  }
+  .tea-block_view-all{
+    margin-left: 245px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tea-block{
+    margin-top: 60px;
+    margin-left: 0;
+    padding: 0;
+    width: 480px;
+    height: 921px;
+  }
+  .tea-block_title{
+    margin-left: 136px;
+  }
+  .tea-block-picture{
+    width: 230px;
+    height: 153px;
+  }
+  .tea-block_subtitle{
+    width: 210px;
+    height: 86px;
+  }
+  .tea-block_cards{
+    width: 460px;
+    margin-left: 10px;
+    row-gap: 30px;
+  }
+  .tea-block_card{
+    height: 153px;
+  }
+  .tea-block_view-all{
+    margin-left: 150px;
+  }
+  .tea-block_card:nth-child(even) {
+      margin-left: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .tea-block_title{
+    width: 125px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.06px;
+    margin-left: 120px;
+    margin-bottom: 0;
+  }
+  .tea-block{
+    margin-top: 50px;
+  }
+  .tea-block_card{
+    flex-direction: column;
+    width: 270px;
+    height: 320px;
+    gap:10px;
+
+  }
+  .tea-block_card:nth-child(3),
+  .tea-block_card:nth-child(4) {
+      display: none;
+  }
+.tea-block_cards{
+  width: 360px;
+  margin-left: 45px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.tea-block-picture{
+  width: 270px;
+  height: 180px;
+}
+.tea-block_subtitle{
+  width: 270px;
+  height: 86px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+
+}
+.tea-block_text{
+  margin-bottom: 10px;
+}
+.tea-block{
+  height: 850px;
+}
+.tea-block_block{
+width: 270px;
+}
+.tea-block_view-all{
+  margin-top: 0px;
+  margin-left: 60px;
+  width: 149px;
+  height: 51px;
+  font-size: 16px;
+
+}
+
+} 

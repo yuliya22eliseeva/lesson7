@@ -1,0 +1,153 @@
+.tea-prioritise {
+  width: 1199px;
+  height: 286px;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.tea-prioritise_title {
+  font-family: "Cormorant";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 48.44px;
+  margin-left: 497px;
+  font-family: "Cormorant";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.44px;
+  color: #151618;
+}
+.tea-prioritise_cards {
+  width: 1200px;
+  height: 178px; 
+  margin-top: 60.04px;
+  display: flex;
+  gap: 49px;
+  text-align:center;
+}
+
+.tea-prioritise_subtitle {
+  width: 248px;
+  height: 41px;
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 40.85px;
+  /* text-align: center; */
+  color: #151618;
+}
+
+.tea-prioritise_text {
+font-family: "Open Sans";
+font-size: 20px;
+font-weight: 600;
+line-height: 27.24px;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 39.97px;
+
+}
+.tea-prioritise_planet{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+@media(max-width:1000px){
+  .tea-prioritise{
+    width: 1000px;
+    height: 500px;
+    margin: 0px;
+  }
+  .tea-prioritise_title{
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 0px;
+  }
+  .tea-prioritise_cards{
+    width: 1000px;
+    margin-left: 121px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    column-gap: 180px;
+    row-gap: 30px;
+  }
+  .tea-prioritise_planet{
+  width: 294px;
+  }
+}
+@media(max-width:768px){
+  .tea-prioritise{
+    width: 768px;
+    height: 495px;
+  }
+  .tea-prioritise_cards{
+    margin-left: 50px;
+    display: flex;
+    column-gap: 70px;
+  }
+  .tea-prioritise_title{
+text-align: center;
+  }
+}
+@media(max-width:480px){
+  .tea-prioritise{
+    width: 480px;
+    height: 926px;   
+  }
+  .tea-prioritise_cards{
+    width: 294px;
+    height: 848px;
+    margin-left: 88px;
+    margin-top: 28px;
+    row-gap: 50px;    
+  }
+  .tea-prioritise_planet{
+    height: 128px;
+  }
+  .tea-prioritise_title{
+    width: 294px;
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+}
+@media(max-width:360px){
+  .tea-prioritise{
+    width: 340px;
+    height: 735px;   
+  }
+  .tea-prioritise_cards{
+    width: 248px;
+    height: 657px;
+    margin-left: 56px;
+    margin-top: 50px;
+    row-gap: 0px;    
+  }
+  .tea-prioritise_title{
+    width: 294px;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.06px;
+    text-align: center;
+} 
+.tea-prioritise_subtitle{
+  width: 248px;
+  height: 41px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+.tea-prioritise_text{
+  width: 227px;
+  height: 27px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13.62px;
+  text-align: center;
+  margin: 0;
+}
+}

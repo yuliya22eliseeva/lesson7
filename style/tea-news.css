@@ -1,0 +1,229 @@
+.tea-new{
+  width: 1600px;
+  height: 418px;
+  background-color: #F7F2EA;
+  margin-top: 150px;
+}
+.tea-news_block{
+  display: flex;
+  margin-left: 200px;
+}
+.tea-news_title{
+  padding: 100px 0 50px 200px;
+  height: 48px;
+  left: 200px;
+  font-family: 'Cormorant';
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 48.44px;
+  text-align: left;
+}
+.tea-news_subscription{
+  width: 580px;
+  height: 120px;
+  margin-top: 50px;
+  left: 200px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+}
+.tea-mail{
+    width: 580px;
+    height: 117px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+input[type='email']{
+  width: 60%;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #B8B58B;
+  width: 439px;
+  background: none;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  color: #B8B58B;
+}
+.tea-news_join {
+  width: 116px;
+  height: 51px;
+  margin-left: 20px;
+  padding: 12px 41px 12px 41px;
+  border: 1px 0px 0px 0px;
+  background: #FFFFFF;
+  border: 1px solid #151618;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.24px;
+  text-align: left;
+}
+.checkbox {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+.tea-news_mail {
+  margin-top: px;
+  width: 560px;
+  height: 54px;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17.7px;
+  text-align: left;
+}
+
+@media (max-width:1000px){ 
+    .tea-new{
+    width: 1000px;
+    height: 495px;
+    margin-top: 220px;
+  }
+  .tea-news_title{
+    padding-top: 60px;
+    margin-left: 137px;
+  }
+  .tea-news_block{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: 110px;
+    margin-top: 10px;
+  }
+  .tea-news_subscription{
+    width: 800px;
+    height: 90px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 0px;
+  }
+  .tea-mail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+}
+@media (max-width:768px){
+  .tea-new{
+    width: 768px;
+    margin-top: 120px;
+    height: 525px;
+  }
+  .tea-news_title{
+    margin-left: 30px;
+  }
+  .tea-news_block{
+    margin-left: 0;
+  }
+  .tea-news_subscription{
+    width: 640px;
+    height: 120px;
+    margin-left: 64px;
+    text-align: center;
+  }
+  .checkbox{
+    margin-top: 10px;
+  }
+}
+@media (max-width:480px){
+  .tea-new{
+    width: 480px;
+    height: 415px;
+    margin-top: 60px;
+  }
+  .tea-news_title{
+    width: 480px;
+  padding-left: 50px;
+  padding-top: 50px;
+  }
+  .tea-news_block{
+    margin-left: 0;
+    width: 480px;
+  }
+  .tea-news_subscription{
+    width: 460px;
+    height: 72px;   
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17.7px;
+    text-align: center;
+    margin: 20px 0 0 10px;
+  }
+  .tea-mail{
+    width: 480px;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+  input[type='email']{
+  width: 324px;
+  padding: 10px 0;
+  }
+  .tea-news_join{
+    margin-left: 0px;
+  }
+  .tea-news_mail{
+    width: 439px;
+    height: 72px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17.7px;
+  }
+}
+@media (max-width:360px){
+  .tea-new{
+    width: 360px;
+    height: 432px;
+    margin-top: 30px;
+  }
+  .tea-news_title{
+    width: 340px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.06px;
+    padding-left: 60px;
+    padding-top: 50px;
+  }
+  .tea-news_block{
+    margin-left: 0;
+  }
+  .tea-news_subscription{
+    width: 340px;
+    height: 90px;   
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17.7px;
+    text-align: center;
+    margin: 0px 0 0 10px;
+  }
+  .tea-mail{
+    width: 340px;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+  input[type='email']{
+  width: 205px;
+  padding: 5px 20px;
+  }
+  .tea-news_join{
+    margin-left: 10px;
+  }
+  .tea-news_mail{
+    width: 320px;
+    height: 90px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 17.7px;
+  }
+} 
+

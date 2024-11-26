@@ -1,0 +1,142 @@
+.tea-icons {
+  width: 1200px;
+  height: 355px;
+  margin: 150px 200px 0 200px;
+
+}
+
+.tea-icons_title {
+  width: 369px;
+  height: 48px;
+  margin-left: 421px;
+  font-family: "Cormorant";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.44px;
+  color: #151618;
+  text-align: center;
+}
+
+.tea-icons_cards {
+  width: 1200px;
+  margin-top: 60px;
+  display: flex;
+  justify-content:center;
+  gap: 40px;
+}
+
+.tea-icons_subtitle {
+  max-width: 64px;
+  height: 29px;
+  color: #151618;
+  font-family: "Cormorant";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+  margin-top: 20px;
+  margin-left: 70px;
+  text-align: center;
+}
+
+@media (max-width: 1000px){
+  .tea-icons{
+    width: 1000px;
+    height: 325px;
+    margin-top: 140px;
+    margin-left: 0px;
+
+
+  }
+  .tea-icons_title {
+    margin-left: 364px;
+
+  }
+  .tea-icons_cards {
+    width: 960px;
+    margin-top: 30px;
+    margin-left: 20px;
+    gap: 0px; 
+  }
+  .tea-icons_card{
+    gap: 0px;
+  }
+}
+
+@media (max-width: 768px){
+  .tea-icons{
+    width: 786px;
+    height: 582px;
+    margin-top: 120px;
+    margin-left: 50px;
+  }
+  .tea-icons_title {
+    margin-left: 200px;
+    text-align: center;
+  }
+  .tea-icons_cards{
+    width: 680px;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    row-gap:0px;
+    column-gap:35px;
+    margin-left: 0px;
+  }
+  }
+  @media (max-width: 480px){
+    .tea-icons{
+      width: 480px;
+      height: 819px;
+      margin: 60px 32px 0 32px;    
+    }  
+    .tea-icons_title {
+      width: 369px;
+      height: 48px;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 48.44px;
+      text-align: left;
+      margin-left: 20px;      
+    }
+    .tea-icons_cards{
+      width: 420px;
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+    }
+    .tea-icons_subtitle{
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 360px){
+    .tea-icons{
+      width: 360px;
+      height: 819px;
+      margin: 80px 0 0 0px;    
+    }  
+    .tea-icons_title {
+      width: 222px;
+      height: 29px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 29.06px;
+      margin-left: 70px;
+    }
+    .tea-icons_cards{
+      width: 360px;
+      height: 770px;
+      margin-top: 0px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+    }
+    .tea-icons_subtitle{
+      margin-top: 20px;
+      margin-left: 55px;
+    }
+    .tea-iconc-picture{
+      width: 180px;
+      height: 180px;
+    }
+  } 

@@ -1,0 +1,466 @@
+.footer {
+  width: 1599px;
+  height: 593px;
+  background-color:#F7F2EA;
+}
+.footer_2{
+  margin-top: 150px;
+  display: flex;
+}
+.tea-contacts_products {
+  margin-top: 105px;
+  width: 97px;
+  height: 269px;
+  margin-left: 200px;
+  display: block;
+}
+.tea-contacts_subtitle {
+  width: 84px;
+  height: 29px;
+  font-family: 'Cormorant';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+  text-align: left;  
+}
+.tea-contacts_list1 {
+  width: 97px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.79px;
+  text-align: left;
+}
+.tea-contacts_company {
+  margin-top: 105px;
+  width: 155px;
+  height: 353px;
+  margin-left: 213px;
+  display: block;
+
+}
+.tea-contacts_subtitle_company {
+  width: 91px;
+  height: 29px;
+  font-family: 'Cormorant';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+  text-align: left;
+}
+.tea-contacts_list2 {
+  width: 155px;
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.79px;
+  text-align: left;
+}
+.tea-contacts_citata {
+  width: 269px;
+  height: 162px;
+  margin-top: 185px;
+  margin-left: 155px;
+  display: block;
+  gap: 20px;
+  text-align: left;
+}
+.tea-contacts_citata_tea {
+  width: 269px;
+  height: 110px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 21.79px;
+  text-align: left;
+}
+.tea-contacts_citata_tea_2 {
+  width: 129px;
+  height: 32px;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 16.34px;
+  text-align: left;
+  margin-top: 20px;
+}
+.tea-768{
+  display: flex;
+  flex-direction: row;
+}
+.tea-contacts_touch {
+  width: 270px;
+  height: 287px;
+  margin-top: 105px;
+  margin-left: 41px;
+}
+.tea-contacts_subtitle_touch {
+  width: 131px;
+  height: 29px;
+  font-family: 'Cormorant';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.06px;
+  text-align: left;
+}
+.tea-contacts_callback {
+  margin-top: 50px;
+  width: 270px;
+  height: 36px;
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17.7px;
+  text-align: left;
+  display: block;
+}
+.tea_peacture {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+}
+.flower {
+  margin-top: 20px;
+}
+.tea-end {
+  width: 136px;
+  height: 60px;
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px ;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17.7px;
+  text-align: left;
+  font-style: normal;
+  color: #151618;
+}
+.networks {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 150px;
+  height: 22px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.tea-480{
+  display: flex;
+  flex-direction: column;
+}
+.footer_end {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-left: 200px;
+  padding-bottom: 20px;
+}
+.TealuxE {
+  display: block;
+  width: 118px;
+  height: 22px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21.79px;
+  text-align: left;
+}
+.tea-pay {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 192px;
+  margin-top: 5px;
+}
+  @media(max-width:1000px){
+  .footer{
+    width: 1000px;
+    height: 540px;
+  }
+  .footer_2{
+    margin-top: 110px;
+  }
+  .tea-contacts_products{
+    margin-left: 20px;
+    width: 97px;
+    height: 269px;
+  }
+  .tea-contacts_company{
+    margin-left: 60px;
+    width: 155px;
+    height: 353px;
+  }
+  .tea-contacts_citata{
+    margin-left: 54px;
+    margin-top: 100px;
+  }
+  .tea-768{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .tea-contacts_touch{
+    margin-left: 55px;
+  }
+  .footer_end{
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .tea-pay{
+    margin-left: 35px;
+  }
+} 
+@media(max-width:768px){
+  .footer{
+    width: 768px;
+    height: 631px;
+  }
+  .footer_2{
+    margin-top: 115px;
+    display: flex;
+  }
+  .tea-contacts_products{
+    margin-top: 50px;
+    margin-left: 64px;
+    width: 97px;
+    height: 269px;
+  }
+  .tea-contacts_company{
+    margin-left: 52px;
+    margin-top: 50px;
+    width: 155px;
+    height: 353px;
+  }
+  .tea-768{
+    display: flex;
+    flex-direction: column;
+  }
+  .tea-contacts_citata{
+    width: 269px;
+    height: 162px;
+    margin-left: 67px;
+    margin-top: 50px;
+    display: inline-block;
+  }
+
+  .tea-contacts_touch{
+    margin-left: 67px;
+    margin-top: 50px;
+    width: 270px;
+    height: 267px;
+    display: block;
+  }
+  .tea-end{
+    gap: 10px;
+  }
+  .footer_end{
+    margin-left: 64px;
+    margin-top: 70px;
+  }
+  .networks{
+    margin-top: 10px;
+  }
+  .tea-pay{
+    margin-left:31px;
+    margin-top: 0px;
+  }  
+}
+@media(max-width:480px){
+  .footer{
+    width: 480px;
+    height: 853px;
+  }
+  .footer_2{
+    margin-top: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+  }
+  .tea-contacts_products{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 97px;
+    height: 269px;
+  }
+  .tea-contacts_list1{
+    margin-top: 30px;
+  }
+  .tea-contacts_company{
+    width: 155px;
+    height: 333px;
+    margin-left: 133px;
+    margin-top: 50px;
+    width: 155px;
+    height: 353px;
+  }
+  .tea-contacts_list2{
+    margin-top: 30px;
+  }
+  .tea-768{
+    display: flex;
+    flex-direction: column;
+  }
+  .tea-contacts_citata{
+    width: 466px;
+    height: 92px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .tea-contacts_citata_tea{
+    width: 466px;
+    height: 66px;
+  }
+  .tea-contacts_citata_tea_2{
+    width: 298px;
+    height: 16px;
+    margin-top: 10px;
+
+  }
+  .tea-contacts_touch{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 270px;
+    height: 267px;
+    display: block;
+  }
+  .tea-contacts_subtitle_touch{
+    margin-left: 165px;
+    margin-top: 30px;
+  }
+  .tea-contacts_callback{
+    width: 460px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .tea-480{
+    display:flex;
+    flex-direction: row;
+  }
+  .tea_peacture{
+    margin-left: 20px;
+  }
+
+  .networks{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .tea-pay{
+    margin-left:150px;
+    margin-top: 0px;
+  }  
+  .tea-end{
+    margin-left: 30px;
+    gap: 10px;
+  }
+  .footer_end{
+    margin-left:9px;
+    margin-top: 12px;
+  }
+}
+@media(max-width:360px){
+  .footer{
+    width: 360px;
+    height: 897px;
+  }
+  .footer_2{
+    margin-top: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+  }
+  .tea-contacts_products{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 97px;
+    height: 249px;
+  }
+  .tea-contacts_company{
+    width: 155px;
+    height: 333px;
+    margin-left: 73px;
+    margin-top: 50px;
+  }
+  .tea-768{
+    display: flex;
+    flex-direction: column;
+  }
+  .tea-contacts_citata{
+    width: 340px;
+    height: 114px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .tea-contacts_citata_tea{
+    width: 340px;
+    height: 88px;
+  }
+  .tea-contacts_citata_tea_2{
+    width: 220.26px;
+    height: 16px;
+    margin-top: 10px;
+
+  }
+  .tea-contacts_touch{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 270px;
+    height: 267px;
+  }
+  .tea-contacts_subtitle_touch{
+    margin-left: 105px;
+  }
+  .tea-contacts_callback{
+    width: 330px;
+    height: 36px;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .tea-480{
+    display:flex;
+    flex-direction: column;
+  }
+.tea_peacture{
+  width: 268px;
+  height: 91px;
+}
+.flower{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+  .networks{
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+  .tea-pay{
+    margin-left:53px;
+    margin-top: 0px;
+  }  
+  .tea-end{
+    margin-top: 30px;
+  }
+  .footer_end{
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+
+}
