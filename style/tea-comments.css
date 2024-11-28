@@ -64,6 +64,7 @@
 }
   
   .tea-comments_cards {
+    width: 892px;
     margin-left: 54px;
     margin-right: 54px;
 }
@@ -88,7 +89,7 @@
   .tea-comments_cards {
     width: 636px;
     margin-left: 67px;
-    margin-right: 67px;
+    margin-right: 65px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 50px;
@@ -124,14 +125,18 @@
     margin-top: 60px;
   }
 
+  .tea-comments_name{
+    width: 220px;
+  }
+
   .tea-comments_title{
     text-align: center;
   }
 
   .tea-comments_cards {
-    width: 480px;
+    width: 465px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -149,7 +154,7 @@
 
 @media (max-width: 360px){
   .tea-comments{
-    width: 356px;
+    width: 360px;
     height: 461px; 
     margin-top: 0px;
   }

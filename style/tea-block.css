@@ -226,6 +226,7 @@
   }
 
   .tea-block{
+    width: 350px;
     margin-top: 50px;
   }
 
@@ -242,7 +243,7 @@
 }
 
 .tea-block_cards{
-  width: 360px;
+  width: 310px;
   margin-left: 45px;
   margin-top: 30px;
   display: flex;

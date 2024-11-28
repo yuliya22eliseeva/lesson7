@@ -68,7 +68,7 @@ align-items: center;
   }
 
   .tea-prioritise_cards{
-    width: 1000px;
+    width: 780px;
     margin-left: 121px;
     display: flex;
     flex-wrap: wrap;
@@ -88,6 +88,7 @@ align-items: center;
   }
 
   .tea-prioritise_cards{
+    width: 680px;
     margin-left: 50px;
     display: flex;
     column-gap: 70px;
@@ -119,7 +120,7 @@ align-items: center;
   .tea-prioritise_title{
     width: 294px;
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 90px;
   }
 }
 

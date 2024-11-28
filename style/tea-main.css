@@ -51,7 +51,7 @@
 
 @media (max-width: 1000px) {
   .tea-main{
-    max-width: 1000px;
+    max-width: 960px;
     margin-left: 20px;
     margin-right: 5px;
   }
@@ -68,6 +68,7 @@
   .tea-main_icons{
     margin-left: 116px;
     margin-top: 40px;
+    margin-right: 0;
   }
 
   .tea-main_search{
@@ -78,6 +79,7 @@
 
     @media (max-width: 768px) {
     .tea-main{
+      width: 768px;
       margin-left: 0;
       }
 
